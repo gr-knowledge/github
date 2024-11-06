@@ -1,5 +1,13 @@
-# git-github
-Knowledge of Git and Github
+**xxxx**
+```
+
+```
+
+**Diferença entre branches**
+```
+git diff develop
+```
+
 
 **Checar diferença dos repositórios**
 ```
@@ -11,8 +19,14 @@ git status
 git log --all --oneline --decorate --graph --remotes
 ```
 
-**Listar novidades no repositório sem aplicar localmente**
+**Baixar do repositório remoto sem integrar**  
+
+origin: *Seu repositório pessoal (onde fez o fork).*  
+upstream: *Repositório original de onde fez o fork.*  
+–all: *Busca atualizações de todos os remotos configurados (origin, upstream, etc.).*
 ```
+git fetch origin
+git fetch upstream
 git fetch --all
 ```
 
